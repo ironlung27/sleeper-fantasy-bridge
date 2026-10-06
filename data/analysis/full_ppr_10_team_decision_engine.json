@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T00:45:11.205963+00:00",
+  "generated_at": "2026-10-06T06:41:52.000618+00:00",
   "engine_version": "5.0",
   "league": "full_ppr_10_team",
-  "week": 4,
+  "week": 5,
   "scoring": "full PPR",
   "league_size": 10,
   "my_roster_id": 4,
@@ -39,10 +39,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NYJ"
-        },
-        {
           "week": 6,
           "opponent": "BAL"
         },
@@ -61,15 +57,19 @@
         {
           "week": 10,
           "opponent": "HOU"
+        },
+        {
+          "week": 12,
+          "opponent": "LV"
         }
       ],
       "decision_model": {
-        "overall": 82.6,
+        "overall": 82.1,
         "production": 18.6,
         "opportunity": 25,
         "role": 20,
         "roster_fit": 3.9,
-        "replacement_value": 6.0,
+        "replacement_value": 5.5,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
@@ -111,10 +111,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "SF"
-        },
-        {
           "week": 6,
           "opponent": "DEN"
         },
@@ -133,15 +129,19 @@
         {
           "week": 10,
           "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "SF"
         }
       ],
       "decision_model": {
-        "overall": 80.9,
+        "overall": 80.5,
         "production": 16.9,
         "opportunity": 25,
         "role": 20,
         "roster_fit": 3.9,
-        "replacement_value": 5.5,
+        "replacement_value": 5.1,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "RISING",
@@ -150,6 +150,78 @@
       },
       "recommendation": "PRIORITY ADD",
       "waiver_rank": 2
+    },
+    {
+      "player_id": "8154",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 12.12,
+        "last3_avg": 15.13,
+        "last3_points": [
+          8.7,
+          11.0,
+          25.7
+        ],
+        "targets": 3.0,
+        "carries": 35.0,
+        "receptions": 3.0,
+        "rush_yards": 163.0,
+        "rec_yards": 21.0,
+        "trend": 3.01
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "CHI"
+        },
+        {
+          "week": 7,
+          "opponent": "SF"
+        },
+        {
+          "week": 8,
+          "opponent": "TB"
+        },
+        {
+          "week": 9,
+          "opponent": "CIN"
+        },
+        {
+          "week": 10,
+          "opponent": "KC"
+        },
+        {
+          "week": 12,
+          "opponent": "MIN"
+        }
+      ],
+      "decision_model": {
+        "overall": 68.0,
+        "production": 20.4,
+        "opportunity": 17.1,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 6.0,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "RISING",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
+      },
+      "recommendation": "ADD",
+      "waiver_rank": 3
     },
     {
       "player_id": "10213",
@@ -183,10 +255,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NE"
-        },
-        {
           "week": 6,
           "opponent": "BUF"
         },
@@ -205,6 +273,10 @@
         {
           "week": 10,
           "opponent": "SEA"
+        },
+        {
+          "week": 11,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -221,7 +293,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "ADD",
-      "waiver_rank": 3
+      "waiver_rank": 4
     },
     {
       "player_id": "4993",
@@ -255,10 +327,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "MIA"
-        },
-        {
           "week": 7,
           "opponent": "BAL"
         },
@@ -277,6 +345,10 @@
         {
           "week": 11,
           "opponent": "WAS"
+        },
+        {
+          "week": 12,
+          "opponent": "NO"
         }
       ],
       "decision_model": {
@@ -293,7 +365,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "ADD",
-      "waiver_rank": 4
+      "waiver_rank": 5
     },
     {
       "player_id": "4017",
@@ -327,10 +399,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NYJ"
-        },
-        {
           "week": 6,
           "opponent": "BAL"
         },
@@ -349,6 +417,10 @@
         {
           "week": 10,
           "opponent": "HOU"
+        },
+        {
+          "week": 12,
+          "opponent": "LV"
         }
       ],
       "decision_model": {
@@ -365,7 +437,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "ADD",
-      "waiver_rank": 5
+      "waiver_rank": 6
     },
     {
       "player_id": "11610",
@@ -399,10 +471,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CIN"
-        },
-        {
           "week": 7,
           "opponent": "NYJ"
         },
@@ -421,6 +489,10 @@
         {
           "week": 11,
           "opponent": "BUF"
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ"
         }
       ],
       "decision_model": {
@@ -435,78 +507,6 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 5.5
-      },
-      "recommendation": "ADD",
-      "waiver_rank": 6
-    },
-    {
-      "player_id": "6806",
-      "name": "J.K. Dobbins",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 1,
-      "performance": {
-        "games": 4,
-        "fppg": 5.18,
-        "last3_avg": 5.7,
-        "last3_points": [
-          3.6,
-          6.3,
-          7.2
-        ],
-        "targets": 4.0,
-        "carries": 38.0,
-        "receptions": 3.0,
-        "rush_yards": 125.0,
-        "rec_yards": 16.0,
-        "trend": 0.52
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "LAC"
-        },
-        {
-          "week": 6,
-          "opponent": "SEA"
-        },
-        {
-          "week": 7,
-          "opponent": "ARI"
-        },
-        {
-          "week": 8,
-          "opponent": "KC"
-        },
-        {
-          "week": 9,
-          "opponent": "CAR"
-        },
-        {
-          "week": 11,
-          "opponent": "LV"
-        }
-      ],
-      "decision_model": {
-        "overall": 62.3,
-        "production": 7.7,
-        "opportunity": 18.9,
-        "role": 20,
-        "roster_fit": 3.9,
-        "replacement_value": 3.2,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
       },
       "recommendation": "ADD",
       "waiver_rank": 7
@@ -543,10 +543,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "TEN"
-        },
-        {
           "week": 6,
           "opponent": "JAX"
         },
@@ -565,6 +561,10 @@
         {
           "week": 11,
           "opponent": "IND"
+        },
+        {
+          "week": 12,
+          "opponent": "BAL"
         }
       ],
       "decision_model": {
@@ -615,10 +615,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NO"
-        },
-        {
           "week": 7,
           "opponent": "IND"
         },
@@ -637,6 +633,10 @@
         {
           "week": 11,
           "opponent": "SF"
+        },
+        {
+          "week": 12,
+          "opponent": "ATL"
         }
       ],
       "decision_model": {
@@ -701,6 +701,78 @@
       },
       "recommendation": "ADD",
       "waiver_rank": 10
+    },
+    {
+      "player_id": "6806",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 1,
+      "performance": {
+        "games": 4,
+        "fppg": 5.18,
+        "last3_avg": 5.7,
+        "last3_points": [
+          3.6,
+          6.3,
+          7.2
+        ],
+        "targets": 4.0,
+        "carries": 38.0,
+        "receptions": 3.0,
+        "rush_yards": 125.0,
+        "rec_yards": 16.0,
+        "trend": 0.52
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "SEA"
+        },
+        {
+          "week": 7,
+          "opponent": "ARI"
+        },
+        {
+          "week": 8,
+          "opponent": "KC"
+        },
+        {
+          "week": 9,
+          "opponent": "CAR"
+        },
+        {
+          "week": 11,
+          "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "PIT"
+        }
+      ],
+      "decision_model": {
+        "overall": 61.9,
+        "production": 7.7,
+        "opportunity": 18.9,
+        "role": 20,
+        "roster_fit": 3.9,
+        "replacement_value": 2.7,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
+      },
+      "recommendation": "ADD",
+      "waiver_rank": 11
     },
     {
       "player_id": "2505",
@@ -772,7 +844,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "ADD",
-      "waiver_rank": 11
+      "waiver_rank": 12
     },
     {
       "player_id": "11564",
@@ -806,10 +878,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LV"
-        },
-        {
           "week": 6,
           "opponent": "NYJ"
         },
@@ -828,6 +896,10 @@
         {
           "week": 10,
           "opponent": "DET"
+        },
+        {
+          "week": 12,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -842,78 +914,6 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 0.0
-      },
-      "recommendation": "WATCH",
-      "waiver_rank": 12
-    },
-    {
-      "player_id": "9511",
-      "name": "Keaton Mitchell",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 7.7,
-        "last3_avg": 9.97,
-        "last3_points": [
-          4.9,
-          13.7,
-          11.3
-        ],
-        "targets": 10.0,
-        "carries": 23.0,
-        "receptions": 9.0,
-        "rush_yards": 115.0,
-        "rec_yards": 34.0,
-        "trend": 2.27
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "DEN"
-        },
-        {
-          "week": 6,
-          "opponent": "KC"
-        },
-        {
-          "week": 8,
-          "opponent": "LA"
-        },
-        {
-          "week": 9,
-          "opponent": "HOU"
-        },
-        {
-          "week": 10,
-          "opponent": "BAL"
-        },
-        {
-          "week": 11,
-          "opponent": "NYJ"
-        }
-      ],
-      "decision_model": {
-        "overall": 57.2,
-        "production": 13.5,
-        "opportunity": 14.9,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 4.6,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "RISING",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
       },
       "recommendation": "WATCH",
       "waiver_rank": 13
@@ -950,10 +950,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NE"
-        },
-        {
           "week": 6,
           "opponent": "BUF"
         },
@@ -972,6 +968,10 @@
         {
           "week": 10,
           "opponent": "SEA"
+        },
+        {
+          "week": 11,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -989,6 +989,78 @@
       },
       "recommendation": "WATCH",
       "waiver_rank": 14
+    },
+    {
+      "player_id": "9511",
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 7.7,
+        "last3_avg": 9.97,
+        "last3_points": [
+          4.9,
+          13.7,
+          11.3
+        ],
+        "targets": 10.0,
+        "carries": 23.0,
+        "receptions": 9.0,
+        "rush_yards": 115.0,
+        "rec_yards": 34.0,
+        "trend": 2.27
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "KC"
+        },
+        {
+          "week": 8,
+          "opponent": "LA"
+        },
+        {
+          "week": 9,
+          "opponent": "HOU"
+        },
+        {
+          "week": 10,
+          "opponent": "BAL"
+        },
+        {
+          "week": 11,
+          "opponent": "NYJ"
+        },
+        {
+          "week": 12,
+          "opponent": "NE"
+        }
+      ],
+      "decision_model": {
+        "overall": 56.7,
+        "production": 13.5,
+        "opportunity": 14.9,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 4.2,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "RISING",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
+      },
+      "recommendation": "WATCH",
+      "waiver_rank": 15
     },
     {
       "player_id": "8111",
@@ -1022,10 +1094,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DAL"
-        },
-        {
           "week": 6,
           "opponent": "PIT"
         },
@@ -1044,6 +1112,10 @@
         {
           "week": 11,
           "opponent": "DET"
+        },
+        {
+          "week": 12,
+          "opponent": "CAR"
         }
       ],
       "decision_model": {
@@ -1060,7 +1132,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 15
+      "waiver_rank": 16
     },
     {
       "player_id": "96",
@@ -1094,10 +1166,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "IND"
-        },
-        {
           "week": 6,
           "opponent": "TB"
         },
@@ -1116,6 +1184,10 @@
         {
           "week": 11,
           "opponent": "PHI"
+        },
+        {
+          "week": 12,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -1132,7 +1204,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 16
+      "waiver_rank": 17
     },
     {
       "player_id": "3257",
@@ -1166,10 +1238,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DET"
-        },
-        {
           "week": 6,
           "opponent": "LA"
         },
@@ -1188,6 +1256,10 @@
         {
           "week": 10,
           "opponent": "LA"
+        },
+        {
+          "week": 11,
+          "opponent": "KC"
         }
       ],
       "decision_model": {
@@ -1204,7 +1276,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 17
+      "waiver_rank": 18
     },
     {
       "player_id": "9480",
@@ -1238,10 +1310,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "PHI"
-        },
-        {
           "week": 6,
           "opponent": "HOU"
         },
@@ -1260,6 +1328,10 @@
         {
           "week": 11,
           "opponent": "NYG"
+        },
+        {
+          "week": 12,
+          "opponent": "TEN"
         }
       ],
       "decision_model": {
@@ -1276,7 +1348,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 18
+      "waiver_rank": 19
     },
     {
       "player_id": "1373",
@@ -1310,10 +1382,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CLE"
-        },
-        {
           "week": 6,
           "opponent": "NE"
         },
@@ -1332,6 +1400,10 @@
         {
           "week": 10,
           "opponent": "BUF"
+        },
+        {
+          "week": 11,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -1348,7 +1420,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 19
+      "waiver_rank": 20
     },
     {
       "player_id": "9758",
@@ -1382,10 +1454,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "TEN"
-        },
-        {
           "week": 6,
           "opponent": "JAX"
         },
@@ -1404,6 +1472,10 @@
         {
           "week": 11,
           "opponent": "IND"
+        },
+        {
+          "week": 12,
+          "opponent": "BAL"
         }
       ],
       "decision_model": {
@@ -1420,7 +1492,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 20
+      "waiver_rank": 21
     },
     {
       "player_id": "12522",
@@ -1454,10 +1526,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "HOU"
-        },
-        {
           "week": 6,
           "opponent": "IND"
         },
@@ -1476,6 +1544,10 @@
         {
           "week": 11,
           "opponent": "DAL"
+        },
+        {
+          "week": 12,
+          "opponent": "JAX"
         }
       ],
       "decision_model": {
@@ -1492,7 +1564,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 21
+      "waiver_rank": 22
     },
     {
       "player_id": "7600",
@@ -1526,10 +1598,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "IND"
-        },
-        {
           "week": 6,
           "opponent": "TB"
         },
@@ -1548,6 +1616,10 @@
         {
           "week": 11,
           "opponent": "PHI"
+        },
+        {
+          "week": 12,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -1564,7 +1636,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "WATCH",
-      "waiver_rank": 22
+      "waiver_rank": 23
     },
     {
       "player_id": "11603",
@@ -1598,10 +1670,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "SF"
-        },
-        {
           "week": 6,
           "opponent": "DEN"
         },
@@ -1620,6 +1688,10 @@
         {
           "week": 10,
           "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "SF"
         }
       ],
       "decision_model": {
@@ -1634,78 +1706,6 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 1.0
-      },
-      "recommendation": "WATCH",
-      "waiver_rank": 23
-    },
-    {
-      "player_id": "8154",
-      "name": "Brian Robinson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "ATL",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 3,
-        "fppg": 7.6,
-        "last3_avg": 7.6,
-        "last3_points": [
-          3.1,
-          8.7,
-          11.0
-        ],
-        "targets": 2.0,
-        "carries": 30.0,
-        "receptions": 2.0,
-        "rush_yards": 132.0,
-        "rec_yards": 16.0,
-        "trend": 0.0
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "BAL"
-        },
-        {
-          "week": 6,
-          "opponent": "CHI"
-        },
-        {
-          "week": 7,
-          "opponent": "SF"
-        },
-        {
-          "week": 8,
-          "opponent": "TB"
-        },
-        {
-          "week": 9,
-          "opponent": "CIN"
-        },
-        {
-          "week": 10,
-          "opponent": "KC"
-        }
-      ],
-      "decision_model": {
-        "overall": 51.9,
-        "production": 10.3,
-        "opportunity": 14.4,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 3.8,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 3,
-        "structural_demand_bonus": 6.0
       },
       "recommendation": "WATCH",
       "waiver_rank": 24
@@ -1742,10 +1742,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "SF"
-        },
-        {
           "week": 6,
           "opponent": "DEN"
         },
@@ -1764,6 +1760,10 @@
         {
           "week": 10,
           "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "SF"
         }
       ],
       "decision_model": {
@@ -1781,78 +1781,6 @@
       },
       "recommendation": "WATCH",
       "waiver_rank": 25
-    },
-    {
-      "player_id": "12474",
-      "name": "Woody Marks",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 7.7,
-        "last3_avg": 8.6,
-        "last3_points": [
-          8.5,
-          9.1,
-          8.2
-        ],
-        "targets": 8.0,
-        "carries": 19.0,
-        "receptions": 6.0,
-        "rush_yards": 45.0,
-        "rec_yards": 33.0,
-        "trend": 0.9
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "TEN"
-        },
-        {
-          "week": 6,
-          "opponent": "JAX"
-        },
-        {
-          "week": 7,
-          "opponent": "NYG"
-        },
-        {
-          "week": 9,
-          "opponent": "LAC"
-        },
-        {
-          "week": 10,
-          "opponent": "CLE"
-        },
-        {
-          "week": 11,
-          "opponent": "IND"
-        }
-      ],
-      "decision_model": {
-        "overall": 51.6,
-        "production": 11.6,
-        "opportunity": 12.2,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 4.2,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "WATCH",
-      "waiver_rank": 26
     },
     {
       "player_id": "9482",
@@ -1886,10 +1814,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NE"
-        },
-        {
           "week": 6,
           "opponent": "BUF"
         },
@@ -1908,6 +1832,10 @@
         {
           "week": 10,
           "opponent": "SEA"
+        },
+        {
+          "week": 11,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -1922,6 +1850,78 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 1.0
+      },
+      "recommendation": "WATCH",
+      "waiver_rank": 26
+    },
+    {
+      "player_id": "12474",
+      "name": "Woody Marks",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 7.7,
+        "last3_avg": 8.6,
+        "last3_points": [
+          8.5,
+          9.1,
+          8.2
+        ],
+        "targets": 8.0,
+        "carries": 19.0,
+        "receptions": 6.0,
+        "rush_yards": 45.0,
+        "rec_yards": 33.0,
+        "trend": 0.9
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "JAX"
+        },
+        {
+          "week": 7,
+          "opponent": "NYG"
+        },
+        {
+          "week": 9,
+          "opponent": "LAC"
+        },
+        {
+          "week": 10,
+          "opponent": "CLE"
+        },
+        {
+          "week": 11,
+          "opponent": "IND"
+        },
+        {
+          "week": 12,
+          "opponent": "BAL"
+        }
+      ],
+      "decision_model": {
+        "overall": 51.2,
+        "production": 11.6,
+        "opportunity": 12.2,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 3.7,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
       },
       "recommendation": "WATCH",
       "waiver_rank": 27
@@ -1958,10 +1958,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "PIT"
-        },
-        {
           "week": 6,
           "opponent": "TEN"
         },
@@ -1980,6 +1976,10 @@
         {
           "week": 10,
           "opponent": "MIA"
+        },
+        {
+          "week": 11,
+          "opponent": "HOU"
         }
       ],
       "decision_model": {
@@ -2030,10 +2030,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LV"
-        },
-        {
           "week": 6,
           "opponent": "NYJ"
         },
@@ -2052,6 +2048,10 @@
         {
           "week": 10,
           "opponent": "DET"
+        },
+        {
+          "week": 12,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -2102,10 +2102,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "IND"
-        },
-        {
           "week": 6,
           "opponent": "TB"
         },
@@ -2124,6 +2120,10 @@
         {
           "week": 11,
           "opponent": "PHI"
+        },
+        {
+          "week": 12,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -2174,10 +2174,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LA"
-        },
-        {
           "week": 6,
           "opponent": "LV"
         },
@@ -2196,6 +2192,10 @@
         {
           "week": 11,
           "opponent": "MIA"
+        },
+        {
+          "week": 12,
+          "opponent": "KC"
         }
       ],
       "decision_model": {
@@ -2246,10 +2246,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CIN"
-        },
-        {
           "week": 7,
           "opponent": "NYJ"
         },
@@ -2268,6 +2264,10 @@
         {
           "week": 11,
           "opponent": "BUF"
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ"
         }
       ],
       "decision_model": {
@@ -2285,78 +2285,6 @@
       },
       "recommendation": "WATCH",
       "waiver_rank": 32
-    },
-    {
-      "player_id": "9226",
-      "name": "De'Von Achane",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "MIA",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Knee - ACL",
-      "injury_notes": "Surgery",
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4,
-      "performance": {
-        "games": 3,
-        "fppg": 8.2,
-        "last3_avg": 8.2,
-        "last3_points": [
-          10.6,
-          12.3,
-          1.7
-        ],
-        "targets": 12.0,
-        "carries": 34.0,
-        "receptions": 7.0,
-        "rush_yards": 127.0,
-        "rec_yards": 49.0,
-        "trend": 0.0
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "CIN"
-        },
-        {
-          "week": 7,
-          "opponent": "NYJ"
-        },
-        {
-          "week": 8,
-          "opponent": "NE"
-        },
-        {
-          "week": 9,
-          "opponent": "DET"
-        },
-        {
-          "week": 10,
-          "opponent": "IND"
-        },
-        {
-          "week": 11,
-          "opponent": "BUF"
-        }
-      ],
-      "decision_model": {
-        "overall": 48.2,
-        "production": 11.1,
-        "opportunity": 20.7,
-        "role": 0,
-        "roster_fit": 3.9,
-        "replacement_value": 4.0,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 3,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "WATCH",
-      "waiver_rank": 33
     },
     {
       "player_id": "10218",
@@ -2390,10 +2318,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "TEN"
-        },
-        {
           "week": 6,
           "opponent": "JAX"
         },
@@ -2412,6 +2336,10 @@
         {
           "week": 11,
           "opponent": "IND"
+        },
+        {
+          "week": 12,
+          "opponent": "BAL"
         }
       ],
       "decision_model": {
@@ -2428,7 +2356,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "WATCH",
-      "waiver_rank": 34
+      "waiver_rank": 33
     },
     {
       "player_id": "11608",
@@ -2462,10 +2390,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CLE"
-        },
-        {
           "week": 6,
           "opponent": "NE"
         },
@@ -2484,6 +2408,10 @@
         {
           "week": 10,
           "opponent": "BUF"
+        },
+        {
+          "week": 11,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -2498,6 +2426,78 @@
         "trend": "RISING",
         "games_sampled": 4,
         "structural_demand_bonus": 5.5
+      },
+      "recommendation": "WATCH",
+      "waiver_rank": 34
+    },
+    {
+      "player_id": "9226",
+      "name": "De'Von Achane",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "MIA",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Knee - ACL",
+      "injury_notes": "Surgery",
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4,
+      "performance": {
+        "games": 3,
+        "fppg": 8.2,
+        "last3_avg": 8.2,
+        "last3_points": [
+          10.6,
+          12.3,
+          1.7
+        ],
+        "targets": 12.0,
+        "carries": 34.0,
+        "receptions": 7.0,
+        "rush_yards": 127.0,
+        "rec_yards": 49.0,
+        "trend": 0.0
+      },
+      "upcoming_schedule": [
+        {
+          "week": 7,
+          "opponent": "NYJ"
+        },
+        {
+          "week": 8,
+          "opponent": "NE"
+        },
+        {
+          "week": 9,
+          "opponent": "DET"
+        },
+        {
+          "week": 10,
+          "opponent": "IND"
+        },
+        {
+          "week": 11,
+          "opponent": "BUF"
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ"
+        }
+      ],
+      "decision_model": {
+        "overall": 47.7,
+        "production": 11.1,
+        "opportunity": 20.7,
+        "role": 0,
+        "roster_fit": 3.9,
+        "replacement_value": 3.6,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 3,
+        "structural_demand_bonus": 6.0
       },
       "recommendation": "WATCH",
       "waiver_rank": 35
@@ -2606,10 +2606,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DET"
-        },
-        {
           "week": 6,
           "opponent": "LA"
         },
@@ -2628,15 +2624,19 @@
         {
           "week": 10,
           "opponent": "LA"
+        },
+        {
+          "week": 11,
+          "opponent": "KC"
         }
       ],
       "decision_model": {
-        "overall": 47.0,
+        "overall": 46.6,
         "production": 9.8,
         "opportunity": 10.4,
         "role": 11,
         "roster_fit": 3.9,
-        "replacement_value": 3.7,
+        "replacement_value": 3.2,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
@@ -2678,10 +2678,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CIN"
-        },
-        {
           "week": 7,
           "opponent": "NYJ"
         },
@@ -2700,6 +2696,10 @@
         {
           "week": 11,
           "opponent": "BUF"
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ"
         }
       ],
       "decision_model": {
@@ -2750,10 +2750,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LA"
-        },
-        {
           "week": 6,
           "opponent": "LV"
         },
@@ -2772,6 +2768,10 @@
         {
           "week": 11,
           "opponent": "MIA"
+        },
+        {
+          "week": 12,
+          "opponent": "KC"
         }
       ],
       "decision_model": {
@@ -2822,10 +2822,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "SF"
-        },
-        {
           "week": 6,
           "opponent": "DEN"
         },
@@ -2844,6 +2840,10 @@
         {
           "week": 10,
           "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "SF"
         }
       ],
       "decision_model": {
@@ -2894,10 +2894,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NYG"
-        },
-        {
           "week": 6,
           "opponent": "SF"
         },
@@ -2916,15 +2912,19 @@
         {
           "week": 11,
           "opponent": "CIN"
+        },
+        {
+          "week": 12,
+          "opponent": "ARI"
         }
       ],
       "decision_model": {
-        "overall": 44.6,
+        "overall": 44.1,
         "production": 13.5,
         "opportunity": 14.0,
         "role": 0,
         "roster_fit": 3.9,
-        "replacement_value": 4.7,
+        "replacement_value": 4.2,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
@@ -2966,10 +2966,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "WAS"
-        },
-        {
           "week": 6,
           "opponent": "NO"
         },
@@ -2988,6 +2984,10 @@
         {
           "week": 11,
           "opponent": "JAX"
+        },
+        {
+          "week": 12,
+          "opponent": "IND"
         }
       ],
       "decision_model": {
@@ -3038,10 +3038,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LV"
-        },
-        {
           "week": 6,
           "opponent": "NYJ"
         },
@@ -3060,6 +3056,10 @@
         {
           "week": 10,
           "opponent": "DET"
+        },
+        {
+          "week": 12,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -3077,78 +3077,6 @@
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 43
-    },
-    {
-      "player_id": "12048",
-      "name": "George Holani",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 4.8,
-        "last3_avg": 5.43,
-        "last3_points": [
-          2.5,
-          10.8,
-          3.0
-        ],
-        "targets": 7.0,
-        "carries": 14.0,
-        "receptions": 7.0,
-        "rush_yards": 41.0,
-        "rec_yards": 52.0,
-        "trend": 0.63
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "SF"
-        },
-        {
-          "week": 6,
-          "opponent": "DEN"
-        },
-        {
-          "week": 7,
-          "opponent": "KC"
-        },
-        {
-          "week": 8,
-          "opponent": "CHI"
-        },
-        {
-          "week": 9,
-          "opponent": "ARI"
-        },
-        {
-          "week": 10,
-          "opponent": "LV"
-        }
-      ],
-      "decision_model": {
-        "overall": 43.5,
-        "production": 7.3,
-        "opportunity": 9.5,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 3.1,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "DEEP STASH",
-      "waiver_rank": 44
     },
     {
       "player_id": "5849",
@@ -3182,10 +3110,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NO"
-        },
-        {
           "week": 7,
           "opponent": "IND"
         },
@@ -3204,6 +3128,10 @@
         {
           "week": 11,
           "opponent": "SF"
+        },
+        {
+          "week": 12,
+          "opponent": "ATL"
         }
       ],
       "decision_model": {
@@ -3218,6 +3146,78 @@
         "trend": "STEADY",
         "games_sampled": 3,
         "structural_demand_bonus": 0.0
+      },
+      "recommendation": "DEEP STASH",
+      "waiver_rank": 44
+    },
+    {
+      "player_id": "12048",
+      "name": "George Holani",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 4.8,
+        "last3_avg": 5.43,
+        "last3_points": [
+          2.5,
+          10.8,
+          3.0
+        ],
+        "targets": 7.0,
+        "carries": 14.0,
+        "receptions": 7.0,
+        "rush_yards": 41.0,
+        "rec_yards": 52.0,
+        "trend": 0.63
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "DEN"
+        },
+        {
+          "week": 7,
+          "opponent": "KC"
+        },
+        {
+          "week": 8,
+          "opponent": "CHI"
+        },
+        {
+          "week": 9,
+          "opponent": "ARI"
+        },
+        {
+          "week": 10,
+          "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "SF"
+        }
+      ],
+      "decision_model": {
+        "overall": 43.0,
+        "production": 7.3,
+        "opportunity": 9.5,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 2.6,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 45
@@ -3254,10 +3254,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "IND"
-        },
-        {
           "week": 6,
           "opponent": "TB"
         },
@@ -3276,6 +3272,10 @@
         {
           "week": 11,
           "opponent": "PHI"
+        },
+        {
+          "week": 12,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -3326,10 +3326,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "WAS"
-        },
-        {
           "week": 6,
           "opponent": "NO"
         },
@@ -3348,6 +3344,10 @@
         {
           "week": 11,
           "opponent": "JAX"
+        },
+        {
+          "week": 12,
+          "opponent": "IND"
         }
       ],
       "decision_model": {
@@ -3398,10 +3398,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "ARI"
-        },
-        {
           "week": 7,
           "opponent": "GB"
         },
@@ -3420,6 +3416,10 @@
         {
           "week": 11,
           "opponent": "TB"
+        },
+        {
+          "week": 12,
+          "opponent": "CHI"
         }
       ],
       "decision_model": {
@@ -3470,10 +3470,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DEN"
-        },
-        {
           "week": 6,
           "opponent": "KC"
         },
@@ -3492,6 +3488,10 @@
         {
           "week": 11,
           "opponent": "NYJ"
+        },
+        {
+          "week": 12,
+          "opponent": "NE"
         }
       ],
       "decision_model": {
@@ -3542,10 +3542,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "PIT"
-        },
-        {
           "week": 6,
           "opponent": "TEN"
         },
@@ -3564,6 +3560,10 @@
         {
           "week": 10,
           "opponent": "MIA"
+        },
+        {
+          "week": 11,
+          "opponent": "HOU"
         }
       ],
       "decision_model": {
@@ -3614,10 +3614,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "HOU"
-        },
-        {
           "week": 6,
           "opponent": "IND"
         },
@@ -3636,6 +3632,10 @@
         {
           "week": 11,
           "opponent": "DAL"
+        },
+        {
+          "week": 12,
+          "opponent": "JAX"
         }
       ],
       "decision_model": {
@@ -3685,10 +3685,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NYG"
-        },
-        {
           "week": 6,
           "opponent": "SF"
         },
@@ -3707,6 +3703,10 @@
         {
           "week": 11,
           "opponent": "CIN"
+        },
+        {
+          "week": 12,
+          "opponent": "ARI"
         }
       ],
       "decision_model": {
@@ -3724,78 +3724,6 @@
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 52
-    },
-    {
-      "player_id": "12504",
-      "name": "Kaleb Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 2.5,
-        "last3_avg": 3.33,
-        "last3_points": [
-          3.2,
-          2.6,
-          4.2
-        ],
-        "targets": 3.0,
-        "carries": 20.0,
-        "receptions": 1.0,
-        "rush_yards": 80.0,
-        "rec_yards": 10.0,
-        "trend": 0.83
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "CHI"
-        },
-        {
-          "week": 6,
-          "opponent": "DAL"
-        },
-        {
-          "week": 7,
-          "opponent": "DET"
-        },
-        {
-          "week": 8,
-          "opponent": "CAR"
-        },
-        {
-          "week": 9,
-          "opponent": "NE"
-        },
-        {
-          "week": 10,
-          "opponent": "MIN"
-        }
-      ],
-      "decision_model": {
-        "overall": 40.9,
-        "production": 4.5,
-        "opportunity": 10.4,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 2.3,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "DEEP STASH",
-      "waiver_rank": 53
     },
     {
       "player_id": "13150",
@@ -3829,10 +3757,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "JAX"
-        },
-        {
           "week": 6,
           "opponent": "CAR"
         },
@@ -3851,6 +3775,10 @@
         {
           "week": 11,
           "opponent": "PIT"
+        },
+        {
+          "week": 12,
+          "opponent": "DAL"
         }
       ],
       "decision_model": {
@@ -3867,7 +3795,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 54
+      "waiver_rank": 53
     },
     {
       "player_id": "7039",
@@ -3901,10 +3829,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NE"
-        },
-        {
           "week": 6,
           "opponent": "BUF"
         },
@@ -3923,6 +3847,10 @@
         {
           "week": 10,
           "opponent": "SEA"
+        },
+        {
+          "week": 11,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -3939,7 +3867,151 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
+      "waiver_rank": 54
+    },
+    {
+      "player_id": "8119",
+      "name": "Jahan Dotson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 5.38,
+        "last3_avg": 6.2,
+        "last3_points": [
+          3.1,
+          2.1,
+          13.4
+        ],
+        "targets": 10.0,
+        "carries": 0.0,
+        "receptions": 5.0,
+        "rush_yards": 0.0,
+        "rec_yards": 76.0,
+        "trend": 0.83
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "CHI"
+        },
+        {
+          "week": 7,
+          "opponent": "SF"
+        },
+        {
+          "week": 8,
+          "opponent": "TB"
+        },
+        {
+          "week": 9,
+          "opponent": "CIN"
+        },
+        {
+          "week": 10,
+          "opponent": "KC"
+        },
+        {
+          "week": 12,
+          "opponent": "MIN"
+        }
+      ],
+      "decision_model": {
+        "overall": 40.5,
+        "production": 8.4,
+        "opportunity": 4.5,
+        "role": 11,
+        "roster_fit": 5.7,
+        "replacement_value": 2.6,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 5.5
+      },
+      "recommendation": "DEEP STASH",
       "waiver_rank": 55
+    },
+    {
+      "player_id": "12504",
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 2.5,
+        "last3_avg": 3.33,
+        "last3_points": [
+          3.2,
+          2.6,
+          4.2
+        ],
+        "targets": 3.0,
+        "carries": 20.0,
+        "receptions": 1.0,
+        "rush_yards": 80.0,
+        "rec_yards": 10.0,
+        "trend": 0.83
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "DAL"
+        },
+        {
+          "week": 7,
+          "opponent": "DET"
+        },
+        {
+          "week": 8,
+          "opponent": "CAR"
+        },
+        {
+          "week": 9,
+          "opponent": "NE"
+        },
+        {
+          "week": 10,
+          "opponent": "MIN"
+        },
+        {
+          "week": 12,
+          "opponent": "LA"
+        }
+      ],
+      "decision_model": {
+        "overall": 40.5,
+        "production": 4.5,
+        "opportunity": 10.4,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 2.0,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
+      },
+      "recommendation": "DEEP STASH",
+      "waiver_rank": 56
     },
     {
       "player_id": "13425",
@@ -3972,10 +4044,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DAL"
-        },
-        {
           "week": 6,
           "opponent": "PIT"
         },
@@ -3994,6 +4062,10 @@
         {
           "week": 11,
           "opponent": "DET"
+        },
+        {
+          "week": 12,
+          "opponent": "CAR"
         }
       ],
       "decision_model": {
@@ -4010,7 +4082,7 @@
         "structural_demand_bonus": 0.0
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 56
+      "waiver_rank": 57
     },
     {
       "player_id": "12536",
@@ -4044,10 +4116,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "TEN"
-        },
-        {
           "week": 6,
           "opponent": "JAX"
         },
@@ -4066,6 +4134,10 @@
         {
           "week": 11,
           "opponent": "IND"
+        },
+        {
+          "week": 12,
+          "opponent": "BAL"
         }
       ],
       "decision_model": {
@@ -4082,7 +4154,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 57
+      "waiver_rank": 58
     },
     {
       "player_id": "9754",
@@ -4116,10 +4188,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DEN"
-        },
-        {
           "week": 6,
           "opponent": "KC"
         },
@@ -4138,6 +4206,10 @@
         {
           "week": 11,
           "opponent": "NYJ"
+        },
+        {
+          "week": 12,
+          "opponent": "NE"
         }
       ],
       "decision_model": {
@@ -4154,7 +4226,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 58
+      "waiver_rank": 59
     },
     {
       "player_id": "11157",
@@ -4226,7 +4298,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 59
+      "waiver_rank": 60
     },
     {
       "player_id": "1479",
@@ -4260,10 +4332,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "PIT"
-        },
-        {
           "week": 6,
           "opponent": "TEN"
         },
@@ -4282,6 +4350,10 @@
         {
           "week": 10,
           "opponent": "MIA"
+        },
+        {
+          "week": 11,
+          "opponent": "HOU"
         }
       ],
       "decision_model": {
@@ -4298,7 +4370,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 60
+      "waiver_rank": 61
     },
     {
       "player_id": "6819",
@@ -4332,10 +4404,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "IND"
-        },
-        {
           "week": 6,
           "opponent": "TB"
         },
@@ -4354,6 +4422,10 @@
         {
           "week": 11,
           "opponent": "PHI"
+        },
+        {
+          "week": 12,
+          "opponent": "DEN"
         }
       ],
       "decision_model": {
@@ -4370,7 +4442,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 61
+      "waiver_rank": 62
     },
     {
       "player_id": "7528",
@@ -4404,10 +4476,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "WAS"
-        },
-        {
           "week": 6,
           "opponent": "NO"
         },
@@ -4426,15 +4494,19 @@
         {
           "week": 11,
           "opponent": "JAX"
+        },
+        {
+          "week": 12,
+          "opponent": "IND"
         }
       ],
       "decision_model": {
-        "overall": 39.4,
+        "overall": 39.3,
         "production": 4.0,
         "opportunity": 9.9,
         "role": 11,
         "roster_fit": 3.9,
-        "replacement_value": 2.2,
+        "replacement_value": 2.0,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
@@ -4442,7 +4514,7 @@
         "structural_demand_bonus": 6.0
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 62
+      "waiver_rank": 63
     },
     {
       "player_id": "4066",
@@ -4476,10 +4548,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "LAC"
-        },
-        {
           "week": 6,
           "opponent": "SEA"
         },
@@ -4498,6 +4566,10 @@
         {
           "week": 11,
           "opponent": "LV"
+        },
+        {
+          "week": 12,
+          "opponent": "PIT"
         }
       ],
       "decision_model": {
@@ -4514,7 +4586,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 63
+      "waiver_rank": 64
     },
     {
       "player_id": "13301",
@@ -4548,10 +4620,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "NYG"
-        },
-        {
           "week": 6,
           "opponent": "SF"
         },
@@ -4570,6 +4638,10 @@
         {
           "week": 11,
           "opponent": "CIN"
+        },
+        {
+          "week": 12,
+          "opponent": "ARI"
         }
       ],
       "decision_model": {
@@ -4586,7 +4658,7 @@
         "structural_demand_bonus": 5.5
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 64
+      "waiver_rank": 65
     },
     {
       "player_id": "8145",
@@ -4620,10 +4692,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CLE"
-        },
-        {
           "week": 6,
           "opponent": "NE"
         },
@@ -4642,6 +4710,10 @@
         {
           "week": 10,
           "opponent": "BUF"
+        },
+        {
+          "week": 11,
+          "opponent": "LAC"
         }
       ],
       "decision_model": {
@@ -4658,7 +4730,7 @@
         "structural_demand_bonus": 1.0
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 65
+      "waiver_rank": 66
     },
     {
       "player_id": "11643",
@@ -4692,10 +4764,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "CIN"
-        },
-        {
           "week": 7,
           "opponent": "NYJ"
         },
@@ -4714,6 +4782,10 @@
         {
           "week": 11,
           "opponent": "BUF"
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ"
         }
       ],
       "decision_model": {
@@ -4730,151 +4802,7 @@
         "structural_demand_bonus": 6.0
       },
       "recommendation": "DEEP STASH",
-      "waiver_rank": 66
-    },
-    {
-      "player_id": "12472",
-      "name": "Raheim Sanders",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 5.1,
-        "last3_avg": 4.93,
-        "last3_points": [
-          2.1,
-          9.1,
-          3.6
-        ],
-        "targets": 8.0,
-        "carries": 5.0,
-        "receptions": 7.0,
-        "rush_yards": 30.0,
-        "rec_yards": 48.0,
-        "trend": -0.17
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "NYJ"
-        },
-        {
-          "week": 6,
-          "opponent": "BAL"
-        },
-        {
-          "week": 7,
-          "opponent": "TEN"
-        },
-        {
-          "week": 8,
-          "opponent": "PIT"
-        },
-        {
-          "week": 9,
-          "opponent": "NO"
-        },
-        {
-          "week": 10,
-          "opponent": "HOU"
-        }
-      ],
-      "decision_model": {
-        "overall": 38.7,
-        "production": 6.7,
-        "opportunity": 5.8,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 2.9,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "DEEP STASH",
       "waiver_rank": 67
-    },
-    {
-      "player_id": "9225",
-      "name": "Tank Bigsby",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "status": "Inactive",
-      "injury_status": "Out",
-      "injury_body_part": "Lower Body",
-      "injury_notes": "Surgery",
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 4.78,
-        "last3_avg": 6.27,
-        "last3_points": [
-          11.8,
-          1.5,
-          5.5
-        ],
-        "targets": 4.0,
-        "carries": 27.0,
-        "receptions": 3.0,
-        "rush_yards": 88.0,
-        "rec_yards": 10.0,
-        "trend": 1.49
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "JAX"
-        },
-        {
-          "week": 6,
-          "opponent": "CAR"
-        },
-        {
-          "week": 7,
-          "opponent": "DAL"
-        },
-        {
-          "week": 8,
-          "opponent": "WAS"
-        },
-        {
-          "week": 9,
-          "opponent": "NYG"
-        },
-        {
-          "week": 11,
-          "opponent": "PIT"
-        }
-      ],
-      "decision_model": {
-        "overall": 38.7,
-        "production": 8.5,
-        "opportunity": 14.0,
-        "role": 0,
-        "roster_fit": 3.9,
-        "replacement_value": 3.4,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
-      },
-      "recommendation": "DEEP STASH",
-      "waiver_rank": 68
     },
     {
       "player_id": "11783",
@@ -4908,10 +4836,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "TB"
-        },
-        {
           "week": 6,
           "opponent": "GB"
         },
@@ -4930,6 +4854,10 @@
         {
           "week": 10,
           "opponent": "SF"
+        },
+        {
+          "week": 11,
+          "opponent": "TEN"
         }
       ],
       "decision_model": {
@@ -4944,6 +4872,78 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 5.5
+      },
+      "recommendation": "DEEP STASH",
+      "waiver_rank": 68
+    },
+    {
+      "player_id": "12472",
+      "name": "Raheim Sanders",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 5.1,
+        "last3_avg": 4.93,
+        "last3_points": [
+          2.1,
+          9.1,
+          3.6
+        ],
+        "targets": 8.0,
+        "carries": 5.0,
+        "receptions": 7.0,
+        "rush_yards": 30.0,
+        "rec_yards": 48.0,
+        "trend": -0.17
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "BAL"
+        },
+        {
+          "week": 7,
+          "opponent": "TEN"
+        },
+        {
+          "week": 8,
+          "opponent": "PIT"
+        },
+        {
+          "week": 9,
+          "opponent": "NO"
+        },
+        {
+          "week": 10,
+          "opponent": "HOU"
+        },
+        {
+          "week": 12,
+          "opponent": "LV"
+        }
+      ],
+      "decision_model": {
+        "overall": 38.3,
+        "production": 6.7,
+        "opportunity": 5.8,
+        "role": 11,
+        "roster_fit": 3.9,
+        "replacement_value": 2.4,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 69
@@ -4980,10 +4980,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "DET"
-        },
-        {
           "week": 6,
           "opponent": "LA"
         },
@@ -5002,6 +4998,10 @@
         {
           "week": 10,
           "opponent": "LA"
+        },
+        {
+          "week": 11,
+          "opponent": "KC"
         }
       ],
       "decision_model": {
@@ -5019,6 +5019,78 @@
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 70
+    },
+    {
+      "player_id": "9225",
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "status": "Inactive",
+      "injury_status": "Out",
+      "injury_body_part": "Lower Body",
+      "injury_notes": "Surgery",
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "performance": {
+        "games": 4,
+        "fppg": 4.78,
+        "last3_avg": 6.27,
+        "last3_points": [
+          11.8,
+          1.5,
+          5.5
+        ],
+        "targets": 4.0,
+        "carries": 27.0,
+        "receptions": 3.0,
+        "rush_yards": 88.0,
+        "rec_yards": 10.0,
+        "trend": 1.49
+      },
+      "upcoming_schedule": [
+        {
+          "week": 6,
+          "opponent": "CAR"
+        },
+        {
+          "week": 7,
+          "opponent": "DAL"
+        },
+        {
+          "week": 8,
+          "opponent": "WAS"
+        },
+        {
+          "week": 9,
+          "opponent": "NYG"
+        },
+        {
+          "week": 11,
+          "opponent": "PIT"
+        },
+        {
+          "week": 12,
+          "opponent": "DAL"
+        }
+      ],
+      "decision_model": {
+        "overall": 38.2,
+        "production": 8.5,
+        "opportunity": 14.0,
+        "role": 0,
+        "roster_fit": 3.9,
+        "replacement_value": 2.9,
+        "schedule": 2.5,
+        "confidence": "HIGH",
+        "trend": "STEADY",
+        "games_sampled": 4,
+        "structural_demand_bonus": 6.0
+      },
+      "recommendation": "DEEP STASH",
+      "waiver_rank": 71
     },
     {
       "player_id": "13264",
@@ -5052,10 +5124,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "MIA"
-        },
-        {
           "week": 7,
           "opponent": "BAL"
         },
@@ -5074,6 +5142,10 @@
         {
           "week": 11,
           "opponent": "WAS"
+        },
+        {
+          "week": 12,
+          "opponent": "NO"
         }
       ],
       "decision_model": {
@@ -5088,78 +5160,6 @@
         "trend": "STEADY",
         "games_sampled": 4,
         "structural_demand_bonus": 5.5
-      },
-      "recommendation": "DEEP STASH",
-      "waiver_rank": 71
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "performance": {
-        "games": 4,
-        "fppg": 3.88,
-        "last3_avg": 3.7,
-        "last3_points": [
-          9.0,
-          0.5,
-          1.6
-        ],
-        "targets": 3.0,
-        "carries": 12.0,
-        "receptions": 3.0,
-        "rush_yards": 53.0,
-        "rec_yards": 28.0,
-        "trend": -0.18
-      },
-      "upcoming_schedule": [
-        {
-          "week": 5,
-          "opponent": "HOU"
-        },
-        {
-          "week": 6,
-          "opponent": "IND"
-        },
-        {
-          "week": 7,
-          "opponent": "CLE"
-        },
-        {
-          "week": 8,
-          "opponent": "CIN"
-        },
-        {
-          "week": 10,
-          "opponent": "JAX"
-        },
-        {
-          "week": 11,
-          "opponent": "DAL"
-        }
-      ],
-      "decision_model": {
-        "overall": 37.5,
-        "production": 5.0,
-        "opportunity": 6.8,
-        "role": 11,
-        "roster_fit": 3.9,
-        "replacement_value": 2.5,
-        "schedule": 2.5,
-        "confidence": "HIGH",
-        "trend": "STEADY",
-        "games_sampled": 4,
-        "structural_demand_bonus": 6.0
       },
       "recommendation": "DEEP STASH",
       "waiver_rank": 72
@@ -5196,10 +5196,6 @@
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "MIN"
-        },
-        {
           "week": 6,
           "opponent": "NYG"
         },
@@ -5218,6 +5214,10 @@
         {
           "week": 11,
           "opponent": "CHI"
+        },
+        {
+          "week": 12,
+          "opponent": "CIN"
         }
       ],
       "decision_model": {
@@ -5284,13 +5284,13 @@
       "waiver_rank": 74
     },
     {
-      "player_id": "5995",
-      "name": "Justice Hill",
+      "player_id": "9508",
+      "name": "Tyjae Spears",
       "position": "RB",
       "fantasy_positions": [
         "RB"
       ],
-      "team": "BAL",
+      "team": "TEN",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
@@ -5299,53 +5299,53 @@
       "depth_chart_order": 2,
       "performance": {
         "games": 4,
-        "fppg": 3.85,
-        "last3_avg": 3.87,
+        "fppg": 3.88,
+        "last3_avg": 3.7,
         "last3_points": [
-          3.8,
-          3.3,
-          4.5
+          9.0,
+          0.5,
+          1.6
         ],
-        "targets": 5.0,
-        "carries": 8.0,
-        "receptions": 4.0,
-        "rush_yards": 42.0,
-        "rec_yards": 34.0,
-        "trend": 0.02
+        "targets": 3.0,
+        "carries": 12.0,
+        "receptions": 3.0,
+        "rush_yards": 53.0,
+        "rec_yards": 28.0,
+        "trend": -0.18
       },
       "upcoming_schedule": [
         {
-          "week": 5,
-          "opponent": "ATL"
-        },
-        {
           "week": 6,
-          "opponent": "CLE"
+          "opponent": "IND"
         },
         {
           "week": 7,
-          "opponent": "CIN"
+          "opponent": "CLE"
         },
         {
           "week": 8,
-          "opponent": "BUF"
-        },
-        {
-          "week": 9,
-          "opponent": "JAX"
+          "opponent": "CIN"
         },
         {
           "week": 10,
-          "opponent": "LAC"
+          "opponent": "JAX"
+        },
+        {
+          "week": 11,
+          "opponent": "DAL"
+        },
+        {
+          "week": 12,
+          "opponent": "JAX"
         }
       ],
       "decision_model": {
-        "overall": 37.0,
-        "production": 5.2,
-        "opportunity": 5.8,
+        "overall": 37.1,
+        "production": 5.0,
+        "opportunity": 6.8,
         "role": 11,
         "roster_fit": 3.9,
-        "replacement_value": 2.5,
+        "replacement_value": 2.0,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
@@ -5740,16 +5740,16 @@
       "target": "Juwan Johnson",
       "position": "TE",
       "model": {
-        "overall": 67.2,
-        "production": 22.6,
-        "opportunity": 8.6,
+        "overall": 66.6,
+        "production": 21.5,
+        "opportunity": 9.0,
         "role": 20,
         "roster_fit": 7.5,
         "replacement_value": 5.0,
         "schedule": 2.5,
         "confidence": "HIGH",
         "trend": "STEADY",
-        "games_sampled": 3,
+        "games_sampled": 4,
         "structural_demand_bonus": 1.0
       }
     },
