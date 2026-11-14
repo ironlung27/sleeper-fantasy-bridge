@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:49:32.853874+00:00",
+  "generated_at": "2026-11-14T06:38:46.154587+00:00",
   "label": "full_ppr_10_team",
   "league_id": "1389130395563327488",
   "week": 10,
@@ -65,6 +65,11 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1389130395563327488",
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1427148107430256640",
+    "shard": 472,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -110,23 +115,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 1.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 472,
-    "sport": "nfl",
-    "last_message_id": "1427007251549294592",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794587550583,
+    "last_message_time": 1794621133242,
     "last_pinned_message_id": "1414382085392666624",
-    "draft_id": "1389130396762931200",
     "last_read_id": null,
+    "draft_id": "1389130396762931200",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -144,10 +148,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "users": [
@@ -538,7 +538,7 @@
           "injury_body_part": "Shoulder",
           "injury_notes": null,
           "depth_chart_position": "RWR",
-          "depth_chart_order": 1
+          "depth_chart_order": 7
         },
         {
           "player_id": "13296",
@@ -613,7 +613,7 @@
           "injury_body_part": "Hamstring",
           "injury_notes": "Strain",
           "depth_chart_position": "RB",
-          "depth_chart_order": 4
+          "depth_chart_order": 3
         },
         {
           "player_id": "8131",
@@ -863,8 +863,8 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Ankle",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1
@@ -1004,8 +1004,8 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Ankle",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1
@@ -1019,8 +1019,8 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Groin",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1
@@ -1139,8 +1139,8 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Hamstring",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "SWR",
           "depth_chart_order": 1
@@ -1292,7 +1292,7 @@
           "injury_body_part": "Knee",
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 2
+          "depth_chart_order": 3
         },
         {
           "player_id": "12718",
@@ -1352,7 +1352,7 @@
           "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1
+          "depth_chart_order": 2
         },
         {
           "player_id": "4217",
@@ -1447,7 +1447,7 @@
           "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1
+          "depth_chart_order": 2
         },
         {
           "player_id": "11632",
@@ -1612,7 +1612,7 @@
           "injury_body_part": "Knee",
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 2
+          "depth_chart_order": 3
         },
         {
           "player_id": "8151",
@@ -2650,8 +2650,8 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Illness",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1
@@ -2680,8 +2680,8 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Ankle",
           "injury_notes": null,
           "depth_chart_position": "SWR",
           "depth_chart_order": 2
@@ -2836,8 +2836,8 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Ankle",
           "injury_notes": null,
           "depth_chart_position": "SWR",
           "depth_chart_order": 2
@@ -2881,8 +2881,8 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Illness",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1
@@ -3197,11 +3197,11 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "injury_body_part": "Achilles",
           "injury_notes": "Tendinitis",
           "depth_chart_position": "LWR",
-          "depth_chart_order": 5
+          "depth_chart_order": 7
         }
       ],
       "taxi": [],
@@ -3275,11 +3275,11 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "injury_body_part": "Achilles",
           "injury_notes": "Tendinitis",
           "depth_chart_position": "LWR",
-          "depth_chart_order": 5
+          "depth_chart_order": 7
         },
         {
           "player_id": "3214",
@@ -3309,7 +3309,7 @@
           "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 2
+          "depth_chart_order": 1
         },
         {
           "player_id": "421",
@@ -3514,8 +3514,8 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Finger",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1
@@ -3544,8 +3544,8 @@
           ],
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Hamstring",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RWR",
           "depth_chart_order": 2
@@ -3713,8 +3713,8 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Finger",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1
@@ -3788,8 +3788,8 @@
           ],
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Hamstring",
+          "injury_status": null,
+          "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "RWR",
           "depth_chart_order": 2
@@ -3914,13 +3914,13 @@
           "depth_chart_order": 1
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "SEA",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
           "injury_body_part": null,
@@ -4069,21 +4069,6 @@
           "depth_chart_order": 1
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "injury_body_part": "Knee",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1
-        },
-        {
           "player_id": "12489",
           "name": "RJ Harvey",
           "position": "RB",
@@ -4159,6 +4144,21 @@
           "depth_chart_order": 2
         },
         {
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null,
+          "injury_body_part": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2
+        },
+        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -4182,11 +4182,11 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "injury_body_part": "Wrist",
           "injury_notes": null,
           "depth_chart_position": "TE",
-          "depth_chart_order": 1
+          "depth_chart_order": 3
         },
         {
           "player_id": "5859",
@@ -4246,7 +4246,7 @@
           "injury_body_part": null,
           "injury_notes": null,
           "depth_chart_position": "SWR",
-          "depth_chart_order": 2
+          "depth_chart_order": 1
         },
         {
           "player_id": "9487",
@@ -4436,8 +4436,8 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Thumb",
           "injury_notes": null,
           "depth_chart_position": "RWR",
           "depth_chart_order": 2
@@ -4711,8 +4711,8 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
-          "injury_body_part": null,
+          "injury_status": "Questionable",
+          "injury_body_part": "Thumb",
           "injury_notes": null,
           "depth_chart_position": "RWR",
           "depth_chart_order": 2
@@ -5279,12 +5279,12 @@
       "points": 0.0,
       "players": [
         "12185",
-        "12474",
         "12489",
         "12512",
         "12518",
         "12534",
         "13286",
+        "13337",
         "4984",
         "5844",
         "5859",
@@ -5301,7 +5301,7 @@
       "starters": [
         "4984",
         "12512",
-        "13286",
+        "13337",
         "7564",
         "9997",
         "12518",
@@ -5324,12 +5324,12 @@
       ],
       "players_points": {
         "12185": 0.0,
-        "12474": 0.0,
         "12489": 0.0,
         "12512": 0.0,
         "12518": 0.0,
         "12534": 0.0,
         "13286": 0.0,
+        "13337": 0.0,
         "4984": 0.0,
         "5844": 0.0,
         "5859": 0.0,
@@ -5413,6 +5413,31 @@
       "status": "complete",
       "type": "free_agent",
       "metadata": null,
+      "created": 1794621133218,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "735685446566268928",
+      "transaction_id": "1427148107329593344",
+      "adds": {
+        "13337": 9
+      },
+      "drops": {
+        "12474": 9
+      },
+      "consenter_ids": [
+        9
+      ],
+      "roster_ids": [
+        9
+      ],
+      "status_updated": 1794621133218,
+      "waiver_budget": []
+    },
+    {
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
       "created": 1794587550549,
       "settings": null,
       "leg": 10,
@@ -5422,12 +5447,12 @@
       "adds": {
         "12504": 4
       },
-      "consenter_ids": [
-        4
-      ],
       "drops": {
         "9757": 4
       },
+      "consenter_ids": [
+        4
+      ],
       "roster_ids": [
         4
       ],
@@ -5447,10 +5472,10 @@
       "adds": {
         "13297": 10
       },
+      "drops": null,
       "consenter_ids": [
         10
       ],
-      "drops": null,
       "roster_ids": [
         10
       ],
@@ -5470,12 +5495,12 @@
       "adds": {
         "IND": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "DEN": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -5495,10 +5520,10 @@
       "adds": {
         "12718": 3
       },
+      "drops": null,
       "consenter_ids": [
         3
       ],
-      "drops": null,
       "roster_ids": [
         3
       ],
@@ -5518,12 +5543,12 @@
       "adds": {
         "11579": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "10235": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -5543,12 +5568,12 @@
       "adds": {
         "BAL": 10
       },
-      "consenter_ids": [
-        10
-      ],
       "drops": {
         "NO": 10
       },
+      "consenter_ids": [
+        10
+      ],
       "roster_ids": [
         10
       ],
@@ -5568,12 +5593,12 @@
       "adds": {
         "12491": 6
       },
-      "consenter_ids": [
-        6
-      ],
       "drops": {
         "11783": 6
       },
+      "consenter_ids": [
+        6
+      ],
       "roster_ids": [
         6
       ],
@@ -5593,12 +5618,12 @@
       "adds": {
         "GB": 6
       },
-      "consenter_ids": [
-        6
-      ],
       "drops": {
         "CHI": 6
       },
+      "consenter_ids": [
+        6
+      ],
       "roster_ids": [
         6
       ],
@@ -5618,12 +5643,12 @@
       "adds": {
         "3271": 6
       },
-      "consenter_ids": [
-        6
-      ],
       "drops": {
         "11620": 6
       },
+      "consenter_ids": [
+        6
+      ],
       "roster_ids": [
         6
       ],
@@ -5641,12 +5666,12 @@
       "creator": "1163916757124640768",
       "transaction_id": "1426179524550230016",
       "adds": null,
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "11625": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -5655,6 +5680,22 @@
     }
   ],
   "available_trending_adds": [
+    {
+      "player_id": "12540",
+      "name": "Chimere Dike",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3,
+      "trend_count": 171270
+    },
     {
       "player_id": "7562",
       "name": "Tutu Atwell",
@@ -5669,7 +5710,7 @@
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 2,
-      "trend_count": 318878
+      "trend_count": 140140
     },
     {
       "player_id": "5995",
@@ -5685,7 +5726,7 @@
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 277218
+      "trend_count": 104535
     },
     {
       "player_id": "10219",
@@ -5696,28 +5737,12 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Hand",
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 220734
-    },
-    {
-      "player_id": "13337",
-      "name": "Emmett Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "KC",
-      "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 176031
+      "trend_count": 96732
     },
     {
       "player_id": "6427",
@@ -5733,23 +5758,39 @@
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 2,
-      "trend_count": 167076
+      "trend_count": 76554
     },
     {
-      "player_id": "5119",
-      "name": "Jason Sanders",
-      "position": "K",
+      "player_id": "4993",
+      "name": "Mike Gesicki",
+      "position": "TE",
       "fantasy_positions": [
-        "K"
+        "TE"
       ],
-      "team": "NYJ",
+      "team": "CIN",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "K",
+      "depth_chart_position": "TE",
       "depth_chart_order": 1,
-      "trend_count": 106190
+      "trend_count": 48400
+    },
+    {
+      "player_id": "12499",
+      "name": "Elic Ayomanor",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 2,
+      "trend_count": 38848
     },
     {
       "player_id": "4177",
@@ -5765,167 +5806,7 @@
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 3,
-      "trend_count": 98049
-    },
-    {
-      "player_id": "96",
-      "name": "Aaron Rodgers",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 84584
-    },
-    {
-      "player_id": "13298",
-      "name": "KC Concepcion Jr.",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 2,
-      "trend_count": 79389
-    },
-    {
-      "player_id": "4017",
-      "name": "Deshaun Watson",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 71600
-    },
-    {
-      "player_id": "4663",
-      "name": "Austin Ekeler",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 69244
-    },
-    {
-      "player_id": "4993",
-      "name": "Mike Gesicki",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1,
-      "trend_count": 68284
-    },
-    {
-      "player_id": "11783",
-      "name": "Ryan Flournoy",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3,
-      "trend_count": 67424
-    },
-    {
-      "player_id": "1945",
-      "name": "Chris Boswell",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 65440
-    },
-    {
-      "player_id": "7021",
-      "name": "Rico Dowdle",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 64660
-    },
-    {
-      "player_id": "TB",
-      "name": "Tampa Bay Buccaneers",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "TB",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 60690
-    },
-    {
-      "player_id": "WAS",
-      "name": "Washington Commanders",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "WAS",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 60123
+      "trend_count": 38538
     },
     {
       "player_id": "13270",
@@ -5941,713 +5822,23 @@
       "injury_notes": null,
       "depth_chart_position": "LWR",
       "depth_chart_order": 3,
-      "trend_count": 55892
+      "trend_count": 36872
     },
     {
-      "player_id": "12540",
-      "name": "Chimere Dike",
+      "player_id": "13298",
+      "name": "KC Concepcion Jr.",
       "position": "WR",
       "fantasy_positions": [
         "WR"
-      ],
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 5,
-      "trend_count": 53667
-    },
-    {
-      "player_id": "11762",
-      "name": "Anthony Gould",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 4,
-      "trend_count": 51303
-    },
-    {
-      "player_id": "12961",
-      "name": "Ryan Fitzgerald",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 48470
-    },
-    {
-      "player_id": "12494",
-      "name": "Kyle McCord",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 46712
-    },
-    {
-      "player_id": "BUF",
-      "name": "Buffalo Bills",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "BUF",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 44293
-    },
-    {
-      "player_id": "8122",
-      "name": "Zonovan Knight",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 42448
-    },
-    {
-      "player_id": "11653",
-      "name": "Charlie Smyth",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 40416
-    },
-    {
-      "player_id": "5947",
-      "name": "Jakobi Meyers",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 2,
-      "trend_count": 37668
-    },
-    {
-      "player_id": "3286",
-      "name": "Demarcus Robinson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 36480
-    },
-    {
-      "player_id": "9228",
-      "name": "Bryce Young",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 35156
-    },
-    {
-      "player_id": "8116",
-      "name": "Pierre Strong Jr.",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3,
-      "trend_count": 34191
-    },
-    {
-      "player_id": "1373",
-      "name": "Geno Smith",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 34004
-    },
-    {
-      "player_id": "11625",
-      "name": "Adonai Mitchell",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 3,
-      "trend_count": 33960
-    },
-    {
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 33561
-    },
-    {
-      "player_id": "12469",
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
       ],
       "team": "CLE",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 32645
-    },
-    {
-      "player_id": "12634",
-      "name": "Jordan Watkins",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 4,
-      "trend_count": 32464
-    },
-    {
-      "player_id": "11565",
-      "name": "J.J. McCarthy",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1,
-      "trend_count": 31950
-    },
-    {
-      "player_id": "9479",
-      "name": "Darnell Washington",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 2,
-      "trend_count": 30135
-    },
-    {
-      "player_id": "3155",
-      "name": "Laquon Treadwell",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 1,
-      "trend_count": 29855
-    },
-    {
-      "player_id": "1433",
-      "name": "Brandon McManus",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "LAR",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 26808
-    },
-    {
-      "player_id": "5908",
-      "name": "Amani Hooker",
-      "position": "DB",
-      "fantasy_positions": [
-        "DB"
-      ],
-      "team": "BUF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "FS",
-      "depth_chart_order": 1,
-      "trend_count": 25632
-    },
-    {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "CLE",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 23604
-    },
-    {
-      "player_id": "6650",
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 21776
-    },
-    {
-      "player_id": "12492",
-      "name": "Pat Bryant",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3,
-      "trend_count": 21720
-    },
-    {
-      "player_id": "13424",
-      "name": "Seth McGowan",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 20512
-    },
-    {
-      "player_id": "11581",
-      "name": "MarShawn Lloyd",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 1,
-      "trend_count": 18783
-    },
-    {
-      "player_id": "11603",
-      "name": "AJ Barner",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1,
-      "trend_count": 18174
-    },
-    {
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LAR",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ribs",
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 2,
-      "trend_count": 17520
-    },
-    {
-      "player_id": "9754",
-      "name": "Quentin Johnston",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 2,
-      "trend_count": 17500
-    },
-    {
-      "player_id": "13414",
-      "name": "Kaelon Black",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 17339
-    },
-    {
-      "player_id": "5189",
-      "name": "Eddy Pineiro",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 15318
-    },
-    {
-      "player_id": "13333",
-      "name": "Deion Burks",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 14205
-    },
-    {
-      "player_id": "12499",
-      "name": "Elic Ayomanor",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 14124
-    }
-  ],
-  "available_trending_drops": [
-    {
-      "player_id": "6650",
-      "name": "Chase McLaughlin",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 264680
-    },
-    {
-      "player_id": "10232",
-      "name": "Michael Wilson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Neck",
-      "injury_notes": "Fracture",
-      "depth_chart_position": "PR",
-      "depth_chart_order": 9,
-      "trend_count": 218682
-    },
-    {
-      "player_id": "2020",
-      "name": "Cairo Santos",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 171675
-    },
-    {
-      "player_id": "11435",
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3,
-      "trend_count": 163629
-    },
-    {
-      "player_id": "5849",
-      "name": "Kyler Murray",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": "Doubtful",
-      "injury_body_part": "Hamstring",
-      "injury_notes": "Strain",
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3,
-      "trend_count": 149632
-    },
-    {
-      "player_id": "650",
-      "name": "Nick Folk",
-      "position": "K",
-      "fantasy_positions": [
-        "K"
-      ],
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 143622
-    },
-    {
-      "player_id": "13424",
-      "name": "Seth McGowan",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 138720
-    },
-    {
-      "player_id": "8161",
-      "name": "Malik Willis",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIA",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Groin",
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2,
-      "trend_count": 113659
-    },
-    {
-      "player_id": "NE",
-      "name": "New England Patriots",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "NE",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 113344
-    },
-    {
-      "player_id": "11625",
-      "name": "Adonai Mitchell",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 3,
-      "trend_count": 101784
-    },
-    {
-      "player_id": "8129",
-      "name": "Dameon Pierce",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": null,
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "injury_body_part": "Undisclosed",
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 94008
+      "trend_count": 31698
     },
     {
       "player_id": "TB",
@@ -6663,215 +5854,55 @@
       "injury_notes": null,
       "depth_chart_position": null,
       "depth_chart_order": null,
-      "trend_count": 90180
+      "trend_count": 30980
     },
     {
-      "player_id": "11581",
-      "name": "MarShawn Lloyd",
+      "player_id": "11762",
+      "name": "Anthony Gould",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 4,
+      "trend_count": 29827
+    },
+    {
+      "player_id": "8122",
+      "name": "Zonovan Knight",
       "position": "RB",
       "fantasy_positions": [
         "RB"
       ],
-      "team": "GB",
+      "team": "ARI",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 1,
-      "trend_count": 85248
-    },
-    {
-      "player_id": "7561",
-      "name": "Elijah Mitchell",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 83205
-    },
-    {
-      "player_id": "5012",
-      "name": "Mark Andrews",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1,
-      "trend_count": 81576
-    },
-    {
-      "player_id": "NO",
-      "name": "New Orleans Saints",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "NO",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 79520
-    },
-    {
-      "player_id": "13150",
-      "name": "Darius Cooper",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
       "depth_chart_order": 2,
-      "trend_count": 68712
+      "trend_count": 27538
     },
     {
-      "player_id": "9482",
-      "name": "Michael Mayer",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 2,
-      "trend_count": 68229
-    },
-    {
-      "player_id": "11637",
-      "name": "Keon Coleman",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "BUF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 67581
-    },
-    {
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2,
-      "trend_count": 66756
-    },
-    {
-      "player_id": "3286",
-      "name": "Demarcus Robinson",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 64956
-    },
-    {
-      "player_id": "12711",
-      "name": "Tyler Loop",
+      "player_id": "5119",
+      "name": "Jason Sanders",
       "position": "K",
       "fantasy_positions": [
         "K"
       ],
-      "team": "BAL",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Groin",
-      "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 3,
-      "trend_count": 64728
-    },
-    {
-      "player_id": "CLE",
-      "name": "Cleveland Browns",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "CLE",
-      "status": null,
+      "team": "NYJ",
+      "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 59738
-    },
-    {
-      "player_id": "8110",
-      "name": "Jake Ferguson",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": "Out",
-      "injury_body_part": "Knee",
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4,
-      "trend_count": 57705
-    },
-    {
-      "player_id": "11628",
-      "name": "Marvin Harrison Jr.",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Hamstring",
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 5,
-      "trend_count": 55252
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 26705
     },
     {
       "player_id": "11783",
@@ -6887,203 +5918,59 @@
       "injury_notes": null,
       "depth_chart_position": "SWR",
       "depth_chart_order": 3,
-      "trend_count": 50712
+      "trend_count": 26632
     },
     {
-      "player_id": "10235",
-      "name": "Roschon Johnson",
+      "player_id": "7021",
+      "name": "Rico Dowdle",
       "position": "RB",
       "fantasy_positions": [
         "RB"
       ],
-      "team": "CHI",
+      "team": "PIT",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 49160
+      "trend_count": 26130
     },
     {
-      "player_id": "10219",
-      "name": "Chris Rodriguez Jr.",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Hand",
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 45459
-    },
-    {
-      "player_id": "11631",
-      "name": "Brian Thomas Jr.",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3,
-      "trend_count": 42270
-    },
-    {
-      "player_id": "8121",
-      "name": "Romeo Doubs",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NE",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Shoulder",
-      "injury_notes": null,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 6,
-      "trend_count": 39240
-    },
-    {
-      "player_id": "6011",
-      "name": "Gardner Minshew II",
+      "player_id": "96",
+      "name": "Aaron Rodgers",
       "position": "QB",
       "fantasy_positions": [
         "QB"
       ],
-      "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Elbow",
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3,
-      "trend_count": 39052
-    },
-    {
-      "player_id": "11563",
-      "name": "Bo Nix",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "DEN",
+      "team": "PIT",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "QB",
       "depth_chart_order": 1,
-      "trend_count": 37698
+      "trend_count": 26060
     },
     {
-      "player_id": "9511",
-      "name": "Keaton Mitchell",
-      "position": "RB",
+      "player_id": "9479",
+      "name": "Darnell Washington",
+      "position": "TE",
       "fantasy_positions": [
-        "RB"
+        "TE"
       ],
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Hip",
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3,
-      "trend_count": 37413
-    },
-    {
-      "player_id": "8154",
-      "name": "Brian Robinson Jr.",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "ATL",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Hamstring",
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4,
-      "trend_count": 36756
-    },
-    {
-      "player_id": "9230",
-      "name": "Tanner McKee",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PHI",
+      "team": "PIT",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3,
-      "trend_count": 34744
-    },
-    {
-      "player_id": "13337",
-      "name": "Emmett Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
+      "depth_chart_position": "TE",
       "depth_chart_order": 2,
-      "trend_count": 34200
+      "trend_count": 25960
     },
     {
-      "player_id": "8116",
-      "name": "Pierre Strong Jr.",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3,
-      "trend_count": 33471
-    },
-    {
-      "player_id": "WAS",
-      "name": "Washington Commanders",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "WAS",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 32697
-    },
-    {
-      "player_id": "12524",
-      "name": "Shedeur Sanders",
+      "player_id": "4017",
+      "name": "Deshaun Watson",
       "position": "QB",
       "fantasy_positions": [
         "QB"
@@ -7094,248 +5981,88 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2,
-      "trend_count": 32632
+      "depth_chart_order": 1,
+      "trend_count": 23808
     },
     {
-      "player_id": "7562",
-      "name": "Tutu Atwell",
+      "player_id": "5947",
+      "name": "Jakobi Meyers",
       "position": "WR",
       "fantasy_positions": [
         "WR"
+      ],
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 2,
+      "trend_count": 23298
+    },
+    {
+      "player_id": "6865",
+      "name": "Colby Parkinson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
       ],
       "team": "LAR",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": "TE",
       "depth_chart_order": 2,
-      "trend_count": 32333
+      "trend_count": 20592
     },
     {
-      "player_id": "3321",
-      "name": "Tyreek Hill",
+      "player_id": "12634",
+      "name": "Jordan Watkins",
       "position": "WR",
       "fantasy_positions": [
         "WR"
-      ],
-      "team": null,
-      "status": "Active",
-      "injury_status": "",
-      "injury_body_part": "Knee - ACL",
-      "injury_notes": "Surgery",
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 32304
-    },
-    {
-      "player_id": "5995",
-      "name": "Justice Hill",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 31410
-    },
-    {
-      "player_id": "13414",
-      "name": "Kaelon Black",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
       ],
       "team": "SF",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 31122
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 4,
+      "trend_count": 19144
     },
     {
-      "player_id": "12457",
-      "name": "Jaydon Blue",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 30264
-    },
-    {
-      "player_id": "12533",
-      "name": "Jacory Croskey-Merritt",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "WAS",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Groin",
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 7,
-      "trend_count": 29691
-    },
-    {
-      "player_id": "13294",
-      "name": "Makai Lemon",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 1,
-      "trend_count": 27764
-    },
-    {
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 27728
-    },
-    {
-      "player_id": "11647",
-      "name": "Kimani Vidal",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "trend_count": 27695
-    },
-    {
-      "player_id": "CHI",
-      "name": "Chicago Bears",
-      "position": "DEF",
-      "fantasy_positions": [
-        "DEF"
-      ],
-      "team": "CHI",
-      "status": null,
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 25567
-    },
-    {
-      "player_id": "5927",
-      "name": "Terry McLaurin",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "WAS",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "injury_body_part": "Knee",
-      "injury_notes": "Surgery",
-      "depth_chart_position": null,
-      "depth_chart_order": 6,
-      "trend_count": 25242
-    },
-    {
-      "player_id": "13330",
-      "name": "Kenyon Sadiq",
+      "player_id": "12700",
+      "name": "Gavin Bartholomew",
       "position": "TE",
       "fantasy_positions": [
         "TE"
+      ],
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 19116
+    },
+    {
+      "player_id": "11625",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 2,
-      "trend_count": 25110
-    },
-    {
-      "player_id": "8135",
-      "name": "Treylon Burks",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Knee",
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 3,
-      "trend_count": 24906
-    },
-    {
-      "player_id": "4943",
-      "name": "Sam Darnold",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": "Out",
-      "injury_body_part": "Quadriceps",
-      "injury_notes": null,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2,
-      "trend_count": 24834
-    },
-    {
-      "player_id": "4993",
-      "name": "Mike Gesicki",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1,
-      "trend_count": 24764
+      "trend_count": 18728
     },
     {
       "player_id": "12469",
@@ -7351,39 +6078,985 @@
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 23850
+      "trend_count": 18110
     },
     {
-      "player_id": "DEN",
-      "name": "Denver Broncos",
-      "position": "DEF",
+      "player_id": "1945",
+      "name": "Chris Boswell",
+      "position": "K",
       "fantasy_positions": [
-        "DEF"
+        "K"
       ],
-      "team": "DEN",
-      "status": null,
+      "team": "PIT",
+      "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null,
-      "trend_count": 23395
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 18004
     },
     {
-      "player_id": "4147",
-      "name": "Samaje Perine",
+      "player_id": "10231",
+      "name": "Elijah Higgins",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 2,
+      "trend_count": 17880
+    },
+    {
+      "player_id": "12492",
+      "name": "Pat Bryant",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3,
+      "trend_count": 17424
+    },
+    {
+      "player_id": "11603",
+      "name": "AJ Barner",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 17334
+    },
+    {
+      "player_id": "12494",
+      "name": "Kyle McCord",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 1,
+      "trend_count": 15984
+    },
+    {
+      "player_id": "3155",
+      "name": "Laquon Treadwell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 1,
+      "trend_count": 15875
+    },
+    {
+      "player_id": "13424",
+      "name": "Seth McGowan",
       "position": "RB",
       "fantasy_positions": [
         "RB"
       ],
-      "team": "CIN",
+      "team": "IND",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
-      "trend_count": 23288
+      "trend_count": 15360
+    },
+    {
+      "player_id": "BUF",
+      "name": "Buffalo Bills",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "BUF",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 15214
+    },
+    {
+      "player_id": "12961",
+      "name": "Ryan Fitzgerald",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "CAR",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 14850
+    },
+    {
+      "player_id": "11653",
+      "name": "Charlie Smyth",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 13848
+    },
+    {
+      "player_id": "5908",
+      "name": "Amani Hooker",
+      "position": "DB",
+      "fantasy_positions": [
+        "DB"
+      ],
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "FS",
+      "depth_chart_order": 1,
+      "trend_count": 13653
+    },
+    {
+      "player_id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 12964
+    },
+    {
+      "player_id": "3286",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 12816
+    },
+    {
+      "player_id": "6650",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 12488
+    },
+    {
+      "player_id": "1373",
+      "name": "Geno Smith",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 1,
+      "trend_count": 12336
+    },
+    {
+      "player_id": "10236",
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 12054
+    },
+    {
+      "player_id": "11637",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 11853
+    },
+    {
+      "player_id": "9228",
+      "name": "Bryce Young",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "CAR",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 1,
+      "trend_count": 11356
+    },
+    {
+      "player_id": "7812",
+      "name": "Simi Fehoko",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 2,
+      "trend_count": 10752
+    },
+    {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "CLE",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 10591
+    },
+    {
+      "player_id": "9754",
+      "name": "Quentin Johnston",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 2,
+      "trend_count": 10514
+    },
+    {
+      "player_id": "10218",
+      "name": "Xavier Hutchinson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 9338
+    },
+    {
+      "player_id": "4663",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "WAS",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 9292
+    },
+    {
+      "player_id": "11581",
+      "name": "MarShawn Lloyd",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 1,
+      "trend_count": 9189
+    },
+    {
+      "player_id": "8116",
+      "name": "Pierre Strong Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3,
+      "trend_count": 9063
+    },
+    {
+      "player_id": "12502",
+      "name": "Gunnar Helm",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 8841
+    },
+    {
+      "player_id": "7608",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 8217
+    },
+    {
+      "player_id": "1433",
+      "name": "Brandon McManus",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 7936
+    },
+    {
+      "player_id": "13421",
+      "name": "Eli Raridon",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 2,
+      "trend_count": 7266
+    }
+  ],
+  "available_trending_drops": [
+    {
+      "player_id": "10232",
+      "name": "Michael Wilson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "ARI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Neck",
+      "injury_notes": "Fracture",
+      "depth_chart_position": "PR",
+      "depth_chart_order": 9,
+      "trend_count": 80577
+    },
+    {
+      "player_id": "13424",
+      "name": "Seth McGowan",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 78624
+    },
+    {
+      "player_id": "11625",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Knee",
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 3,
+      "trend_count": 71184
+    },
+    {
+      "player_id": "6650",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 69376
+    },
+    {
+      "player_id": "5849",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Hamstring",
+      "injury_notes": "Strain",
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3,
+      "trend_count": 61224
+    },
+    {
+      "player_id": "11435",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3,
+      "trend_count": 59526
+    },
+    {
+      "player_id": "10219",
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 55854
+    },
+    {
+      "player_id": "3286",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 42462
+    },
+    {
+      "player_id": "NE",
+      "name": "New England Patriots",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "NE",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 40600
+    },
+    {
+      "player_id": "7561",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 38574
+    },
+    {
+      "player_id": "11783",
+      "name": "Ryan Flournoy",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3,
+      "trend_count": 37160
+    },
+    {
+      "player_id": "11581",
+      "name": "MarShawn Lloyd",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 1,
+      "trend_count": 36369
+    },
+    {
+      "player_id": "8161",
+      "name": "Malik Willis",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIA",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Groin",
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2,
+      "trend_count": 35868
+    },
+    {
+      "player_id": "11628",
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Hamstring",
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6,
+      "trend_count": 35788
+    },
+    {
+      "player_id": "2020",
+      "name": "Cairo Santos",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "trend_count": 35721
+    },
+    {
+      "player_id": "11637",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 35307
+    },
+    {
+      "player_id": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 35244
+    },
+    {
+      "player_id": "8129",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": null,
+      "status": "Inactive",
+      "injury_status": "Questionable",
+      "injury_body_part": "Undisclosed",
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 32200
+    },
+    {
+      "player_id": "9482",
+      "name": "Michael Mayer",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 2,
+      "trend_count": 32193
+    },
+    {
+      "player_id": "650",
+      "name": "Nick Folk",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 30084
+    },
+    {
+      "player_id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "TB",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 29840
+    },
+    {
+      "player_id": "3161",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2,
+      "trend_count": 26304
+    },
+    {
+      "player_id": "13150",
+      "name": "Darius Cooper",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 2,
+      "trend_count": 25725
+    },
+    {
+      "player_id": "13414",
+      "name": "Kaelon Black",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 25298
+    },
+    {
+      "player_id": "7562",
+      "name": "Tutu Atwell",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 2,
+      "trend_count": 25060
+    },
+    {
+      "player_id": "NO",
+      "name": "New Orleans Saints",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "NO",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 24685
+    },
+    {
+      "player_id": "CLE",
+      "name": "Cleveland Browns",
+      "position": "DEF",
+      "fantasy_positions": [
+        "DEF"
+      ],
+      "team": "CLE",
+      "status": null,
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 22148
+    },
+    {
+      "player_id": "8110",
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": "Out",
+      "injury_body_part": "Knee",
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4,
+      "trend_count": 21170
+    },
+    {
+      "player_id": "8116",
+      "name": "Pierre Strong Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3,
+      "trend_count": 21006
+    },
+    {
+      "player_id": "5995",
+      "name": "Justice Hill",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 20808
+    },
+    {
+      "player_id": "11631",
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3,
+      "trend_count": 18490
+    },
+    {
+      "player_id": "12711",
+      "name": "Tyler Loop",
+      "position": "K",
+      "fantasy_positions": [
+        "K"
+      ],
+      "team": "BAL",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Groin",
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 3,
+      "trend_count": 18276
     },
     {
       "player_id": "6427",
@@ -7399,7 +7072,55 @@
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 2,
-      "trend_count": 22266
+      "trend_count": 17433
+    },
+    {
+      "player_id": "10235",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 17248
+    },
+    {
+      "player_id": "8121",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NE",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Shoulder",
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6,
+      "trend_count": 16048
+    },
+    {
+      "player_id": "6011",
+      "name": "Gardner Minshew II",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "ARI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Elbow",
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3,
+      "trend_count": 16004
     },
     {
       "player_id": "12487",
@@ -7415,7 +7136,263 @@
       "injury_notes": "Sprain",
       "depth_chart_position": "TE",
       "depth_chart_order": 5,
-      "trend_count": 22008
+      "trend_count": 15960
+    },
+    {
+      "player_id": "12469",
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 15860
+    },
+    {
+      "player_id": "3321",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": null,
+      "status": "Active",
+      "injury_status": "",
+      "injury_body_part": "Knee - ACL",
+      "injury_notes": "Surgery",
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 15784
+    },
+    {
+      "player_id": "9230",
+      "name": "Tanner McKee",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3,
+      "trend_count": 15208
+    },
+    {
+      "player_id": "4993",
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1,
+      "trend_count": 15140
+    },
+    {
+      "player_id": "9511",
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "injury_body_part": "Hip",
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3,
+      "trend_count": 14634
+    },
+    {
+      "player_id": "12457",
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 14512
+    },
+    {
+      "player_id": "13294",
+      "name": "Makai Lemon",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 1,
+      "trend_count": 14392
+    },
+    {
+      "player_id": "11563",
+      "name": "Bo Nix",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 1,
+      "trend_count": 14088
+    },
+    {
+      "player_id": "8135",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "WAS",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 3,
+      "trend_count": 14014
+    },
+    {
+      "player_id": "8154",
+      "name": "Brian Robinson Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "ATL",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Hamstring",
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4,
+      "trend_count": 13890
+    },
+    {
+      "player_id": "12524",
+      "name": "Shedeur Sanders",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2,
+      "trend_count": 13632
+    },
+    {
+      "player_id": "11647",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 13500
+    },
+    {
+      "player_id": "12634",
+      "name": "Jordan Watkins",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 4,
+      "trend_count": 12984
+    },
+    {
+      "player_id": "12492",
+      "name": "Pat Bryant",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3,
+      "trend_count": 12808
+    },
+    {
+      "player_id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "WAS",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "injury_body_part": "Groin",
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 7,
+      "trend_count": 11214
+    },
+    {
+      "player_id": "9757",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": null,
+      "depth_chart_order": null,
+      "trend_count": 10760
     },
     {
       "player_id": "7049",
@@ -7426,32 +7403,32 @@
       ],
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Calf",
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3,
-      "trend_count": 21651
+      "depth_chart_order": 6,
+      "trend_count": 10745
     },
     {
-      "player_id": "4195",
-      "name": "Jake Elliott",
-      "position": "K",
+      "player_id": "4147",
+      "name": "Samaje Perine",
+      "position": "RB",
       "fantasy_positions": [
-        "K"
+        "RB"
       ],
-      "team": "PHI",
+      "team": "CIN",
       "status": "Active",
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": "K",
-      "depth_chart_order": 1,
-      "trend_count": 21602
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2,
+      "trend_count": 10580
     },
     {
-      "player_id": "12498",
-      "name": "Mason Taylor",
+      "player_id": "13330",
+      "name": "Kenyon Sadiq",
       "position": "TE",
       "fantasy_positions": [
         "TE"
@@ -7462,8 +7439,8 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 1,
-      "trend_count": 21255
+      "depth_chart_order": 2,
+      "trend_count": 10404
     }
   ],
   "free_agents": [
@@ -7540,7 +7517,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "9504",
@@ -7705,7 +7682,7 @@
       "injury_body_part": "Groin",
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "12848",
@@ -7851,8 +7828,8 @@
       ],
       "team": "SEA",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Oblique",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "QB",
       "depth_chart_order": 1
@@ -8046,11 +8023,11 @@
       ],
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Calf",
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 6
     },
     {
       "player_id": "4943",
@@ -8500,7 +8477,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "5870",
@@ -9261,11 +9238,11 @@
       ],
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Hamstring",
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 2
     },
     {
       "player_id": "13249",
@@ -9655,7 +9632,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11237",
@@ -10086,8 +10063,8 @@
       ],
       "team": "LAC",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Shoulder",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 3
@@ -10101,8 +10078,8 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 2
@@ -10195,7 +10172,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "12761",
@@ -10615,7 +10592,7 @@
       "injury_body_part": "Knee",
       "injury_notes": null,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7521",
@@ -10766,6 +10743,21 @@
       "injury_notes": null,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12474",
+      "name": "Woody Marks",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "injury_body_part": null,
+      "injury_notes": null,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 1
     },
     {
       "player_id": "11644",
@@ -11031,8 +11023,8 @@
       ],
       "team": "GB",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Groin",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
       "depth_chart_order": 3
@@ -11275,7 +11267,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12656",
@@ -11530,7 +11522,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13307",
@@ -11545,7 +11537,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6699",
@@ -12066,7 +12058,7 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Ankle",
       "injury_notes": null,
       "depth_chart_position": "LWR",
@@ -12111,8 +12103,8 @@
       ],
       "team": "JAX",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Hand",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
@@ -12130,7 +12122,7 @@
       "injury_body_part": "Shoulder",
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 6
     },
     {
       "player_id": "5917",
@@ -12291,8 +12283,8 @@
       ],
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ribs",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
       "depth_chart_order": 4
@@ -12941,7 +12933,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13013",
@@ -13072,8 +13064,8 @@
       ],
       "team": "HOU",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Foot",
+      "injury_status": "Out",
+      "injury_body_part": "Finger",
       "injury_notes": null,
       "depth_chart_position": "TE",
       "depth_chart_order": 5
@@ -13237,11 +13229,11 @@
       ],
       "team": "HOU",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Hamstring",
       "injury_notes": null,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "4353",
@@ -13526,7 +13518,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "8423",
@@ -13582,8 +13574,8 @@
       ],
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Back",
       "injury_notes": null,
       "depth_chart_position": "LWR",
       "depth_chart_order": 4
@@ -13747,8 +13739,8 @@
       ],
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
       "depth_chart_order": 1
@@ -13856,7 +13848,7 @@
       "injury_body_part": "Undisclosed",
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13419",
@@ -14021,7 +14013,7 @@
       "injury_body_part": "Toe",
       "injury_notes": "Sprain",
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "10223",
@@ -14141,7 +14133,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "3678",
@@ -14504,21 +14496,6 @@
       "depth_chart_order": 1
     },
     {
-      "player_id": "13337",
-      "name": "Emmett Johnson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "13101",
       "name": "Gage Larvadain",
       "position": "WR",
@@ -14782,8 +14759,8 @@
       ],
       "team": "BAL",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Calf",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "LWR",
       "depth_chart_order": 2
@@ -15187,8 +15164,8 @@
       ],
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ankle",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
@@ -15307,11 +15284,11 @@
       ],
       "team": "GB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Concussion",
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11381",
@@ -15386,7 +15363,7 @@
       "injury_body_part": "Knee",
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6011",
@@ -15656,7 +15633,7 @@
       "injury_body_part": "Knee - ACL",
       "injury_notes": "Surgery",
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "7595",
@@ -15937,8 +15914,8 @@
       ],
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
-      "injury_body_part": null,
+      "injury_status": "Questionable",
+      "injury_body_part": "Knee",
       "injury_notes": null,
       "depth_chart_position": "RWR",
       "depth_chart_order": 3
@@ -16762,8 +16739,8 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Quadriceps",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
@@ -16855,8 +16832,8 @@
       "injury_status": null,
       "injury_body_part": null,
       "injury_notes": null,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13308",
@@ -17081,7 +17058,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11433",
@@ -17122,7 +17099,7 @@
       ],
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_body_part": "Quadriceps",
       "injury_notes": null,
       "depth_chart_position": null,
@@ -17651,7 +17628,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13322",
@@ -17917,7 +17894,7 @@
       ],
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "injury_body_part": "Hamstring",
       "injury_notes": "Strain",
       "depth_chart_position": "QB",
@@ -18311,7 +18288,7 @@
       "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8188",
@@ -18367,8 +18344,8 @@
       ],
       "team": "LAR",
       "status": "Active",
-      "injury_status": "Questionable",
-      "injury_body_part": "Ribs",
+      "injury_status": null,
+      "injury_body_part": null,
       "injury_notes": null,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
